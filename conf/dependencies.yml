@@ -1,4 +1,4 @@
-self: play -> twitter_bootstrap 0.1
+self: play -> twitter_bootstrap 1.2.0
 
 require:
     - play
