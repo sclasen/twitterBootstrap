@@ -1,10 +1,10 @@
 # Here you can create play commands that are specific to the module, and extend existing commands
 
-MODULE = 'twitter_bootstrap'
+MODULE = 'twitterBootstrap'
 
 # Commands that are specific to your module
 
-COMMANDS = ['twitter_bootstrap:hello']
+COMMANDS = ['twitterBootstrap:hello']
 
 def execute(**kargs):
     command = kargs.get("command")
@@ -12,7 +12,7 @@ def execute(**kargs):
     args = kargs.get("args")
     env = kargs.get("env")
 
-    if command == "twitter_bootstrap:hello":
+    if command == "twitterBootstrap:hello":
         print "~ Hello"
 
 

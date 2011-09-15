@@ -3,7 +3,7 @@
 require:
     - play
     - play -> less 0.3
-    - localModule -> twitter_bootstrap 1.2.0 
+    - localModule -> twitterBootstrap 1.2.0 
 
 repositories:
     - localModule:

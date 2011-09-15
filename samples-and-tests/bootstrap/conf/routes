@@ -5,7 +5,7 @@ GET     /                                       Application.index
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
-GET	/twitter				module:twitter_bootstrap
+GET	/twitter				module:twitterBootstrap
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public                                       staticDir:public

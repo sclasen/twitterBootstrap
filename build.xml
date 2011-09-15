@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="twitter_bootstrap" default="build" basedir=".">
+<project name="twitterBootstrap" default="build" basedir=".">
 
     <target name="check" unless="play.path">
         <fail message="Please specify Play framework path using -Dplay.path=/path/to/framework/home" />
@@ -33,10 +33,10 @@
                 <include name="**/play.static"/>
             </fileset>
         </copy>
-        <jar destfile="lib/play-twitter_bootstrap.jar" basedir="tmp/classes">
+        <jar destfile="lib/play-twitterBootstrap.jar" basedir="tmp/classes">
             <manifest>
                 <section name="Play-module">
-                    <attribute name="Specification-Title" value="twitter_bootstrap"/>
+                    <attribute name="Specification-Title" value="twitterBootstrap"/>
                 </section>
             </manifest>
         </jar>
