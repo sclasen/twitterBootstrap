@@ -1,1 +1,1 @@
-See the [documentation](./documentation/manual/home.textile)
+See the [documentation](./play-twitter-bootstrap/tree/master/documentation/manual/home.textile)
