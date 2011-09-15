@@ -15,12 +15,12 @@ pre. 		require:
     			- play -> twitter_bootstrap 1.2.0
 
 define a route to the module in conf/routes (above the catch-all route). You can use any prefix to refer to the module, in this case we will use the prefix "twitter"
-
-pre.		GET 	/twitter	module:twitter_bootstrap
+    
+pre.    		   GET 	    /twitter    	module:twitter_bootstrap
 
 use the twitter-bootstrap generated css in your views or static resources. For this example, we use the twitter prefix.
 
-pre.		<link rel="stylesheet" media="screen" href="/twitter/bootstrap.less">
+pre.    	    	<link rel="stylesheet" media="screen" href="/twitter/bootstrap.less">
 
 *Modifying the generated CSS*
 
