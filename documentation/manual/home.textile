@@ -1,4 +1,4 @@
-*twitter_bootstrap module for play*
+*twitterBootstrap module for play*
 
 This module will add the twitter-bootstrap css toolkit to your play project. It dynamically generates the css using less, via the play less module.
 
@@ -12,11 +12,11 @@ add this to your conf/dependencies.yml file:
 
 pre. 		require:
     			- play -> less 0.3
-    			- play -> twitter_bootstrap 1.2.0
+    			- play -> twitterBootstrap 1.2.0
 
 define a route to the module in conf/routes (above the catch-all route). You can use any prefix to refer to the module, in this case we will use the prefix "twitter"
     
-pre.    		   GET 	    /twitter    	module:twitter_bootstrap
+pre.    		   GET 	    /twitter    	module:twitterBootstrap
 
 use the twitter-bootstrap generated css in your views or static resources. For this example, we use the twitter prefix.
 
@@ -24,7 +24,7 @@ pre.    	    	<link rel="stylesheet" media="screen" href="/twitter/bootstrap.les
 
 *Modifying the generated CSS*
 
-You can edit any of the .less files in modules/twitter_bootstrap-1.2.0/public and the less plugin will automatically recompile the css.
+You can edit any of the .less files in modules/twitterBootstrap-1.2.0/public and the less plugin will automatically recompile the css.
 
 
  
