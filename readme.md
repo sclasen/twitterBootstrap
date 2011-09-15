@@ -1,1 +1,1 @@
-See the [documentation](http:documentation/manual/home.textile)
+See the [documentation](/documentation/manual/home.textile)
