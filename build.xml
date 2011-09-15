@@ -18,7 +18,11 @@
             <include name="*.jar"/>
         </fileset>
     </path>
+    <target name="build">
+       <echo>No classes to compile</echo>
+    </target>
 
+<!--
     <target name="build" depends="compile">
         <mkdir dir="lib" />
         <copy todir="tmp/classes">
@@ -45,5 +49,6 @@
             <classpath refid="project.classpath" />
         </javac>
     </target>
+-->
 
 </project>
